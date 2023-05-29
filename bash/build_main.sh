@@ -4,9 +4,9 @@ if [[ $BUILDTOP == "" ]]; then
   exit
 fi
 
-cd $BUILDTOP/cmd/stargazer;
+cd $BUILDTOP/cmd/strekker;
 
-go build -o ../../bin/stargazer;
+go build -o ../../bin/strekker;
 
 if [ $? -eq 0 ]; then
   echo "Build successful!"
